@@ -1,6 +1,6 @@
 # LINQ
 
-This is implementation of LINQ toolkit in Rust
+This is implementation of LINQ toolkit in Rust.
 Check `main.rs` to see the examples with Fibonacci numbers and words count.
 
 Result of the program:
