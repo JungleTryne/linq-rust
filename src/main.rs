@@ -7,8 +7,8 @@ mod types;
 
 fn main() {
     let fib = FibIterator::new()
-        .where_linq(|x: &u32| return x % 3 == 0)
-        .select(|x: u32| return if x % 2 == 0 { x * x } else { x })
+        .where_linq(|x: &u32| x % 3 == 0)
+        .select(|x: u32| if x % 2 == 0 { x * x } else { x })
         .take(5)
         .to_list();
 
