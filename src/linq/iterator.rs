@@ -192,7 +192,7 @@ where
                 None
             } else {
                 self.current_sub_iter.as_mut().unwrap().next()
-            }
+            };
         }
 
         next_element

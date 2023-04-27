@@ -9,7 +9,7 @@ impl FibIterator {
     pub fn new() -> Self {
         Self {
             first: 0,
-            second: 1
+            second: 1,
         }
     }
 }
